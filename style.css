@@ -1,0 +1,16 @@
+body {
+
+    background-color: whitesmoke;
+    margin: auto, 0;
+}
+
+#g {
+
+    border: 2px solid black;
+    transition: all ease 0.5s;
+}
+#g:hover {
+
+    transition: 0.4s;
+    transform:scale(1.3);
+}
