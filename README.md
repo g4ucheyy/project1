@@ -12,3 +12,7 @@ Day 1- 7/11/2025
 Hour: 16m
 Total Hour: 16m
 
+Day 2- 8/11/2025
+Hour: 2h 57m
+Total Hour: 3h 13m
+
