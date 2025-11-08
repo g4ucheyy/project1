@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="narutomaki.png">
+           
+        </head>
+    <body>
+        
+
+        <div class="main"> <!-- MAIN -->
+       <a href="index.html" id="head"><h1 id="txt">Canggzy Personal Page</h1></a>
+
+        <div class="menu"> <!--NAV MENU BAR-->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                 <li><a href="link.html">Link</a></li>
+                </ul>
+                </div>
+                
+                 <button id="themeToggle">Toggle Dark/Light Mode</button>
+                 
+                 </div>
+                             <script>
+                // ===== DARK/LIGHT MODE TOGGLE =====
+const themeToggle = document.getElementById("themeToggle");
+
+if (themeToggle) {  // only run if the button exists
+  // load saved theme from localStorage
+  const savedTheme = localStorage.getItem("theme");
+  if (savedTheme) {
+    document.documentElement.setAttribute("data-theme", savedTheme);
+  }
+
+  // toggle theme on button click
+  themeToggle.addEventListener("click", () => {
+    const currentTheme = document.documentElement.getAttribute("data-theme");
+    const newTheme = currentTheme === "dark" ? "light" : "dark";
+    document.documentElement.setAttribute("data-theme", newTheme);
+    localStorage.setItem("theme", newTheme); // remember choice
+  });
+}
+            </script>
+                 </body>
+                 </html>
