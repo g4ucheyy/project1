@@ -17,3 +17,6 @@ Hour: 2h 57m
 Total Hour: 3h 13m
 
 Main: https://g4ucheyy.github.io/project1/
+
+17/2/2026
+I give up
